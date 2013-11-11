@@ -1,8 +1,7 @@
-require 'rspec'
-require 'rr'
+require 'spec_helper_lite'
 require 'active_model'
 require 'active_support/core_ext/object'
-require_relative '../../app/models/order_delivery_date_validator'
+require 'order_delivery_date_validator'
 
 describe OrderDeliveryDateValidator do
   let(:validator) do
